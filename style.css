@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.line{
+    background-color: black;
+    width:50px;
+    height: 7px;
+    margin: 100px auto;
+    text-align: center;
+}
+#apps,#game,#chat{
+    background-color: aquamarine;
+    height:100%;
+        width:100%;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+    
+}
+h1{
+    font-size:50px;
+    font-family: 'Carter One', cursive;
+    font-weight: 100;
+}
+img{
+    transition: trasform .2s;
+    width: 200px;
+    height:300px;
+}
+img:hover{
+    transform:scale(0.9);
+}
