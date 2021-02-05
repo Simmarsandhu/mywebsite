@@ -1,40 +1,95 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <script src=""></script>
-   <section id="apps">
-       <h1>MY APPS</h1>
-   <div class="line"></div>
-   <iframe width="500" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Hwd-JZ5Xu3dHCgrvYsTo78yDgjRhdbXIk71zJ9IAQTg/embed"></iframe>
-   <iframe width="500" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/D6JnrvXTOWw5Y6p9IDo1722d31s_aaSZVRQxi81ebc8/embed"></iframe>
-    </section>  
-    <section id="game">
-        <h1>MY GAMES</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/applab/xI75Worjp6JTpbVyJZtaqxodAf7GY15VKEJ8ebQk2Ak" target="_blank"><img src="game1.png"></a>
-    
-    <a href="https://studio.code.org/projects/flappy/kDIB-mkddhKHjJbH3Dw_XKKNCDMVDDaBIeALfHUhWH8" target="_blank"><img src="flappy.jpg"></a>
-    </section>
-    <section id="chat">
-        <h1>MY CHATBOT</h1>
-        <div class="line"></div>
-        <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/bff927cf-a907-451e-b0bf-124a03be7050">
-</iframe>
-      
-    </section>
-     
+
+    <div class="container">
+        <section id="apps">
+            <h1>MY APPS</h1>
+            <div class="line"></div>
+            <iframe width="500" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Hwd-JZ5Xu3dHCgrvYsTo78yDgjRhdbXIk71zJ9IAQTg/embed"></iframe>
+            <iframe width="500" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/D6JnrvXTOWw5Y6p9IDo1722d31s_aaSZVRQxi81ebc8/embed"></iframe>
+        </section>
+        <h1>CLICK ON THE GAMES TO PLAY</h1>
+        <h2>these are made on code.org platform </h2>
+        <div  id="1div" class= "carousel slide" >
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/applab/xI75Worjp6JTpbVyJZtaqxodAf7GY15VKEJ8ebQk2Ak" target="_blank"><img src="game1.png"></a>
+                        <div class="carousel-content">
+                            <p>The Ball Game</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item ">
+                    <center>
+                        <a href="https://studio.code.org/projects/flappy/kDIB-mkddhKHjJbH3Dw_XKKNCDMVDDaBIeALfHUhWH8" target="_blank"><img src="flappy.jpg"></a>
+
+                        <div class="carousel-content">
+                            <p>The Flappy Bird</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        
+        <a class="left carousel-control" href="#1div" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#1div" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div>
+        <h1>CLICK ON THE APPS TO EXPLORE</h1>
+        <h2>these are made on thunkable platform </h2>
+        <div class="carousel slide" id="2div">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="" target="_blank"><img src="game1.png"></a>
+                        <div class="carousel-content">
+                            <p>THE TEACHERS APP</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item ">
+                    <center>
+                        <a href="" target="_blank"><img src="flappy.jpg"></a>
+
+                        <div class="carousel-content">
+                            <p>THE CHAT APP</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        
+        <a class="left carousel-control" href="#1div" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#1div" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+</div>
+
+    </div>
+
+
+
+
 </body>
+
 </html>
